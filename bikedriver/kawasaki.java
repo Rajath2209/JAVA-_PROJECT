@@ -241,10 +241,10 @@ class customexception  extends Exception
      
 public class kawasaki {
     public static void main(String[] args) {
-        System.out.println("have a nice drive sir".toLowerCase());              //string handling functions
+        System.out.println("Have a nice drive sir".toLowerCase());              //string handling functions
         Scanner s= new
         Scanner(System.in);
-        Driver peter = new Driver("rajath",2000,"9282627287");
+        Driver peter = new Driver("Rajath",2000,"9282627287");
       //  peter.profile("peter");
         bike b;
         System.out.println("Want to choose Bike?" + "press 0 for No / 1 for Yes".toUpperCase()); //string handling functions
